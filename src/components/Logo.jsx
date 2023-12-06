@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './logo.gif'
+import logo from './Logo.gif'
 
 function Logo({width, height}) {
   return (
