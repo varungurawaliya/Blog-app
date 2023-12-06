@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import authService from "./appwrite/auth"
 import {login, logout} from "./store/authSlice"
-import { Footer, Header, LoadingScreen } from './components'
+import { Footer, Header, LoadingScreen } from "./components/Index"
 import { Outlet } from 'react-router-dom'
 
 
