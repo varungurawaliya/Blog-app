@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import authService from '../../appwrite/auth'
-import { LoadingScreen } from "../";
+import { LoadingScreen } from "../Index";
 import { useDispatch } from 'react-redux'
 import { logout } from '../../store/authSlice'
 

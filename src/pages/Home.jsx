@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import appwriteService from "../appwrite/config";
-import {Container, LoadingScreen, PostCard} from '../components'
+import {Container, LoadingScreen, PostCard} from '../components/Index'
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
